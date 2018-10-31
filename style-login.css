@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* General Styles */
+
+body{
+    background-color: #c7c7c9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#login{
+  width: 400px;
+}
+
+.login form{
+  background-color: #c7c7c9;
+  box-shadow: none;
+}
+
+
+.login label {
+  color: rgb(45, 45, 46);
+}
+
+.wp-core-ui .button-primary{
+  background: #332797;
+  border-color: #2d0958;
+  color: aliceblue;
+  text-shadow: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.wp-core-ui .button-primary:hover, .button-primary:focus, .button-primary:active{
+  background: #4538b9;
+  border-color: #300c5e;
+  text-shadow: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
